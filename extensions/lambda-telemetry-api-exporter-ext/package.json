@@ -1,0 +1,18 @@
+{
+  "name": "telemetry-api-s3-exporter",
+  "version": "1.0.0",
+  "description": "AWS Lambda Telemetry API S3 Exporter",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-firehose": "^3.197.0",
+    "@aws-sdk/types": "^3.197.0",
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.7"
+  }
+}

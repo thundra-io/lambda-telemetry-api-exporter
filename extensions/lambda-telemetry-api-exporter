@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -euo pipefail
+
+/opt/extensions/lambda-telemetry-api-exporter-ext/bin/node /opt/extensions/lambda-telemetry-api-exporter-ext/index.js
